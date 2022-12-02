@@ -7,6 +7,9 @@
 <p align="center">Built with <a href="https://github.com/gabrielcarloto/flow-launcher-helper">flow-launcher-helper</a></p>
 <p align="center">Huge thanks to <a href="https://github.com/gabrielcarloto/flow-search-npm">gabrielcarloto</a> for a TypeScript Flow Launcher plugin example</p>
 
+## Usage
+
+
 ## Installation
 
 This plugin is written in Typescript, so you need Node.js installed to use it.
