@@ -35,11 +35,11 @@ jobs:
             - name: Install prod
               run: npm i --omit=dev
             - name: Pack
-              run: zip -r Discord-timestamps . -x '*.git*'
+              run: zip -r Flow.Launcher.Plugin.DiscordTimestamps.zip . -x '*.git*'
             - name: Publish
               uses: softprops/action-gh-release@v1
               with:
-                  files: "Discord-timestamps"
+                  files: "Flow.Launcher.Plugin.DiscordTimestamps.zip"
                   tag_name: "v${{steps.version.outputs.prop}}"
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
