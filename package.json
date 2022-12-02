@@ -2,7 +2,8 @@
     "name": "discord-timestamps-flowlauncher-plugin",
     "type": "module",
     "scripts": {
-        "build": "tsc --watch"
+        "build": "tsc",
+        "dev": "tsc --watch"
     },
     "devDependencies": {
         "@types/node": "18.11.10",
