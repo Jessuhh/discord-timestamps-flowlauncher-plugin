@@ -4,7 +4,7 @@
     "Name": "Discord timestamps",
     "Description": "Generate discord timestamps",
     "Author": "Jessuh",
-    "Version": "0.0.1",
+    "Version": "1.0.0",
     "Language": "executable",
     "Website": "https://github.com/Jessuhh/discord-timestamps-flowlauncher-plugin",
     "ExecuteFileName": "run.bat",
