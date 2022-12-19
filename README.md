@@ -20,12 +20,10 @@ To install Node.js, go to https://nodejs.org/ and download the LTS (Long Term Su
 
 
 
-<!--
 ### Install the plugin
 
 You can find this plugin in Flow's Plugin Store, or by running this command in Flow Launcher:
 
 ```
 pm install discord timestamps
-``` 
--->
+```
