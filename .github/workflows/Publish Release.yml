@@ -34,7 +34,7 @@ jobs:
               with:
                   path: node_modules
             - name: Install prod
-              run: npm i --omit=dev
+              run: npm i
             - name: Pack
               run: zip -r Flow.Launcher.Plugin.DiscordTimestamps.zip . -x '*.git*'
             - name: Publish
